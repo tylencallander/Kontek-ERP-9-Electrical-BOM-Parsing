@@ -1,0 +1,710 @@
+{
+    "SCE-907220FSD": {
+        "manufacturer": "SAGINAW",
+        "description": "TWO-DOOR ENCLOSURE, NEMA 12, FLOOR MOUNT, 90\" HIGH x 72\" WIDE x 20\" DEEP",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-90P72F1": {
+        "manufacturer": "SAGINAW",
+        "description": "ENCLOSURE SUB-PLATE, (78\" HIGH x 68\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "TL50P3AOSQ": {
+        "manufacturer": "BANNER",
+        "description": "TL50 PRO TOWER LIGHT WITH SEALED OMNI-DIRECTIONAL AUDIBLE, STANDARD BLACK HOUSING: 3 SEGMENT, 10-30 V DC,  IP67,  EURO 5-PIN",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SOP-E12-150A": {
+        "manufacturer": "BANNER",
+        "description": "150 MM ELEVATED-USE STAND-OFF PIPE (1/2 IN. NPSM/DN15), ANODIZED ALUMINUM(BLACK)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SA-E12M30": {
+        "manufacturer": "BANNER",
+        "description": "MOUNTING BASE ADAPTER/COVER, BLACK ACETAL, 1/2 IN. NPSM/DN15 PIPE AND 30 MM (1-3/16 IN.) DRILLED HOLE, MOUNTING HARDWARE INCLUDED",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SA-M30E12": {
+        "manufacturer": "BANNER",
+        "description": "STREAMLINED BLACK ACETAL STAND-OFF PIPE ADAPTOR/COVER WITH M30X1.5 THREADS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "MQDC1-515": {
+        "manufacturer": "BANNER",
+        "description": "BANNER 5-PIN M12 CABLE WITH FLYING LEADS, 15FT LENGTH",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-FS1818-09": {
+        "manufacturer": "SAGINAW",
+        "description": "FOLDING SHELF, 18\" WIDE x 18\" DEEP, GRAY",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-20H2008LP": {
+        "manufacturer": "SAGINAW",
+        "description": "WALL MOUNT ENCLOSURE, (20\" HIGH x 20\" WIDE x 8\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-20P20": {
+        "manufacturer": "SAGINAW",
+        "description": "BACKPLATE, (17\" HIGH x 17\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "T102-20-0001": {
+        "manufacturer": "EXM",
+        "description": "CUSTOM 1412 CSD121209, NEMA12-13, Serie Consolet - Bottom Locks /REV#0/ STUDS FOR IP",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "T102-20-0001IP": {
+        "manufacturer": "EXM",
+        "description": "CUSTOM BACKPLATE 880 SPG /REV#0/",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "T102-20-0002": {
+        "manufacturer": "EXM",
+        "description": "CUSTOM 1412 CSD161612, NEMA12-13, Serie Consolet - Bottom Locks /REV#0/ STUDS FOR IP",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "T102-20-0002IP": {
+        "manufacturer": "EXM",
+        "description": "CUSTOM BACKPLATE 880 SPG /REV#0/",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-10086CHNF": {
+        "manufacturer": "SAGINAW",
+        "description": "ENCLOSURE (10\" HIGH x 8\" WIDE x 6\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-10P8": {
+        "manufacturer": "SAGINAW",
+        "description": "BACKPLATE (8.75\" HIGH x 6.88\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "JBX664": {
+        "manufacturer": "IPEX",
+        "description": "SPECTER JBOX, SCREW COVER, PVC NEMA 4X, (6\" HIGH x 6\" WIDE x 4\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "BP66CSW": {
+        "manufacturer": "IPEX",
+        "description": "BACKPLATE, (6.75\" HIGH x 4.88\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "J161406HLL": {
+        "manufacturer": "STAHLIN",
+        "description": "FRP ENCLOSURE, (17.53\" HIGH x 15.46\" WIDE x 6.21\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "BP1614CS": {
+        "manufacturer": "STAHLIN",
+        "description": "FRP ENCLOSURE BACK PANEL, (14.88\" HIGH x 12.88\")",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-16148CHNF": {
+        "manufacturer": "SAGINAW",
+        "description": "ENCLOSURE (16\" HIGH x 14\" WIDE x 8\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-16P14": {
+        "manufacturer": "SAGINAW",
+        "description": "BACKPLATE (14.75\" HIGH x 12.88\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-14086CHNF": {
+        "manufacturer": "SAGINAW",
+        "description": "ENCLOSURE (14\" HIGH x 8\" WIDE x 6\" DEEP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "SCE-14P8": {
+        "manufacturer": "SAGINAW",
+        "description": "BACKPLATE (12.75\" HIGH x 6.88\" WIDE)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "GS2JU3N": {
+        "manufacturer": "SCHNEIDER",
+        "description": "FUSEABLE SWITCH 100 A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "GS2AH440": {
+        "manufacturer": "SCHNEIDER",
+        "description": "HANDLE NEMA 4X",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "GS2AE21": {
+        "manufacturer": "SCHNEIDER",
+        "description": "SHAFT 15.7 IN, FOR 100-400 AMP DISCONNECT",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LPJ-80SP": {
+        "manufacturer": "BUSSMANN",
+        "description": "600V CLASS J TIME DELAY 80A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "569030": {
+        "manufacturer": "ERIFLEX",
+        "description": "SINGLE POLE DISTRIBUTION BLOCK UDJ-160 200A CSA",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LP-CC-15": {
+        "manufacturer": "BUSSMANN",
+        "description": "FUSE, 15A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "USCC3I": {
+        "manufacturer": "MERSEN",
+        "description": "FUSE HOLDER, INDICATING, 3P FOR CLASS CC, 600V, 30A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "WNB-3D-480-P-SSR": {
+        "manufacturer": "CONTINENTAL",
+        "description": "POWER MONITOR, WATTNODE PULSE METER, 3 PHASE, 50-60HZ, 480VAC (3xACTL-1250-250 ALSO REQUIRED)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "ACTL-1250-250": {
+        "manufacturer": "CONTINENTAL",
+        "description": "ACCU-CT SPLIT-CORE CURRENT TRANSFORMER, 250A, 50-60HZ",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LP-CC-25": {
+        "manufacturer": "BUSSMANN",
+        "description": "FUSE, 25A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2711-1JD10": {
+        "manufacturer": "SIEMENS",
+        "description": "3 POLE CIRCUIT BREAKER, 10A, SIZE S00, 45mm width",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3305.540": {
+        "manufacturer": "RITTAL",
+        "description": "AIR CONDITIONER, 400 VAC, 3PHASE, 50HZ, 460VAC, 3 PHASE, 60HZ, 1.6 kW",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1DA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 2.2 - 3.2A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2901-2F": {
+        "manufacturer": "SIEMENS",
+        "description": "FRONT MOUNT AUX. CONTACT BLOCK FOR MSP, 2NO - SPRING TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RA2911-2AA00": {
+        "manufacturer": "SIEMENS",
+        "description": "LINK CONNECTING MODULE FOR AC AND DC COILS, 3RV2 MSP TO 3RT2 CONTACTOR, SIZE S00, SPRING TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RT2015-2BB41": {
+        "manufacturer": "SIEMENS",
+        "description": "CONTACTOR, 3-POLE, 6A, COIL VOLTAGE 24 V DC, 1NO, SIZE S00, 45mm width, SPRING TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LBS-RLO16/3PM-D1/Z33/GB": {
+        "manufacturer": "ITC",
+        "description": "FUSELESS MANUAL MOTOR DISCONNECT SWITCH SWITCH IN INSULATED ENCLOSURE, 16 AMP",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LBS-HV11": {
+        "manufacturer": "ITC",
+        "description": "AUXILIARY CONTACT BLOCK, 1NO + 1NC (FOR ENCLOSED DISCONNECT SWITCHES, TYPES RLO/RLT)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1BA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 1.4 - 2A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1AA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 1.1 - 1.6A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1KA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 9 - 12.5A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1HA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 5.5 - 8A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RT2018-2BB41": {
+        "manufacturer": "SIEMENS",
+        "description": "CONTACTOR, 3-POLE, 16A, COIL VOLTAGE 24 V DC, 1NO, SIZE S00, 45mm width, SPRING TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RT2016-2BB41": {
+        "manufacturer": "SIEMENS",
+        "description": "CONTACTOR, 3-POLE, 9A, COIL VOLTAGE 24 V DC, 1NO, SIZE S00, 45mm width, SPRING TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1EA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 2.8 - 4A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "CRX0003AC": {
+        "manufacturer": "HPS",
+        "description": "LINE REACTOR, 480 VOLT, 3% IMPEDANCE, 1.5HP, 3AMPS, CORE AND COI, FRAME SIZE 1A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "25B-D2P3N104": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "POWERFLEX 525 AC DRIVE, 480VAC, 3PH, 1HP, 2.3A (A-FRAME)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2011-1CA20": {
+        "manufacturer": "SIEMENS",
+        "description": "MOTOR STARTER PROTECTOR, 1.8 - 2.5A, SIZE S00, 45mm width (SPRING TYPE CONNECTION)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "CRX01D6AC": {
+        "manufacturer": "HPS",
+        "description": "LINE REACTOR, 480 VOLT, 3% IMPEDANCE, 0.75HP, 1.6AMPS, CORE AND COIL. FRAME SIZE 1A",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "25B-D1P4N104": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "PF 525 480V 3PH 0.5HP IP20 (A FRAME)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "6XV1870-3QH20": {
+        "manufacturer": "SIEMENS",
+        "description": "INDUSTRIAL ETHERNET TP CORD RJ45/RJ45, CAT 6A, TP CABLE 4 X 2, PRE-ASSEMBLED WITH 2 RJ45 CONNECTORS, LENGTH 2M",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "FRS-R-60": {
+        "manufacturer": "BUSSMANN",
+        "description": "60 AMP FUSE, CLASS RK5, TIME DELAY, LINE SIDE XFMR FUSING",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "60607R": {
+        "manufacturer": "MERSEN",
+        "description": "FUSE HOLDER, 2 POLE, FOR TRANSFORMER PRIMARY FUSING ABOVE 30 AMP, UP TO 60 AMP, CLASS R",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "Q010LEKF": {
+        "manufacturer": "HPS",
+        "description": "TRANSFORMER, 10KVA",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LPJ-100SP": {
+        "manufacturer": "BUSSMANN",
+        "description": "FUSE, 100 AMP",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "JM60100-1CR": {
+        "manufacturer": "BUSSMANN",
+        "description": "CLASS J FUSE BLOCK, BOX LUG WITH RETAINING CLIP. (61-100 AMP)",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "CRVI-J-60100": {
+        "manufacturer": "BUSSMANN",
+        "description": "CLASS J FUSEBLOCK COVER WITH INDICATOR (600V), FOR 100 AMP, SINGLE POLE FUSEBLOCK",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42104": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 4A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250T1311": {
+        "manufacturer": "EATON",
+        "description": "SELECTOR SWITCH OPERATOR, 2 POSITION, BLACK KNOB",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250T1": {
+        "manufacturer": "EATON",
+        "description": "CONTACT BLOCK, 1NO, 1NC",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250TK3": {
+        "manufacturer": "EATON",
+        "description": "THRUST WASHER FOR EATON 10250 PILOT DEVICES.",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250TA101": {
+        "manufacturer": "EATON",
+        "description": "FINGERPROOF SHROUD, FITS NEW STYLE CONTACT BLOCKS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250T5": {
+        "manufacturer": "EATON",
+        "description": "30mm PUSHBUTTON E-STOP, MAINTAINED PUSH/PULL OPERATOR",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250TC53": {
+        "manufacturer": "EATON",
+        "description": "ILLUMINATED MUSHROOM LENS, WITH (EMER. STOP) TEXT",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250T97L": {
+        "manufacturer": "EATON",
+        "description": "LED BASE, FULL VOLTAGE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "RL1-CL4-24": {
+        "manufacturer": "EATON",
+        "description": "LED, RED, 24V AC/DC",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "700-P1200A1": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "CONTROL RELAY, 12NO, 120V, 60HZ",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "700-P400A1": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "CONTROL RELAY, 4NO, 120V, 60HZ",
+        "quantity": 0,
+        "unit_price": 1.0
+    },
+    "10250T297L": {
+        "manufacturer": "EATON",
+        "description": "ILLUMINATED PUSHBUTTON, PUSH TO TEST, FULL VOLTAGE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250TC22": {
+        "manufacturer": "EATON",
+        "description": "PUSH TO TEST LENSE, PLASTIC, GREEN",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "RL1-CL3-120": {
+        "manufacturer": "EATON",
+        "description": "LED GREEN, 120VAC",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "10250TC26": {
+        "manufacturer": "EATON",
+        "description": "PUSH TO TEST LENSE, PLASTIC, WHITE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "RL1-CL1-120": {
+        "manufacturer": "EATON",
+        "description": "LED, WHITE, 110V AC/DC",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "56.34.8.120.0054": {
+        "manufacturer": "FINDER",
+        "description": "4PDT 12A RELAY C/W PTTB & LED",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "96.74SMA": {
+        "manufacturer": "FINDER",
+        "description": "RELAY SOCKET",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42106": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 6A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42105": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 5A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42101": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 1A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "LBS-N20AV": {
+        "manufacturer": "ITC",
+        "description": "SIDE MOUNT ADD-ON SOLID NEUTRAL GROUND BLOCK (FOR ENCLOSED DISCONNECT SWITCHES, TYPES RLO/RLT), (SWITCH SIZE 16A-25A)",
+        "quantity": 0,
+        "unit_price": 1.0
+    },
+    "M9F42170": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 0.5A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3UG4501-1AW30": {
+        "manufacturer": "SIEMENS",
+        "description": "CONDUCTIVE FLUID LEVEL MONITORING RELAY WITH NO/NC CONTACTS, 2-200KOHM, 24-240V AC/DC, 50-60HZ, SCREW TERMINALS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42110": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 10A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "38.51.7.024.0050": {
+        "manufacturer": "FINDER",
+        "description": "CONTROL RELAY, 24VDC",
+        "quantity": 0,
+        "unit_price": 5.0
+    },
+    "M9F42103": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 3A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42108": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 8A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "6EP1336-2BA10": {
+        "manufacturer": "SIEMENS",
+        "description": "24VDC AUTO SITOP PSU100S 20 A STABILIZED POWER SUPPLY",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42120": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 20A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "BSPA050120N7P": {
+        "manufacturer": "BUSSMANN",
+        "description": "SURGE SUPRESSOR, 120V - ORDER FROM GRAYBAR",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "DAP3BC-SO-5U": {
+        "manufacturer": "PANDUIT",
+        "description": "NEMA 4X DATA PORT, WITH 120VAC OUTLET",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-L330ER": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "COMPACTLOGIX 5380 CONTROLLER, 3MB, 31 I/OS, 50 NODES, STANDARD",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-RTB64-SPRING": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "5069 COMPACT I/O POWER TERMINAL RTB KIT FOR BOTH 4 AND 6 PIN SCREW TYPE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "2711P-T12W22D9P": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "2711 PANELVIEW PLUS 7 TERMINAL, 1250 MODEL, TOUCH SCREEN, COLOR, ETHERNET AND RS-232, DC INPUT",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "FLEXY205": {
+        "manufacturer": "EWON",
+        "description": "EWON FLEXY 205 M2M ROUTER, 4 ENET PORTS",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "FLB3271": {
+        "manufacturer": "EWON",
+        "description": "EWON FLEXY WIFI CARD",
+        "quantity": 0,
+        "unit_price": 1.0
+    },
+    "EKI-5629CI-EI-AE": {
+        "manufacturer": "ADVANTECH",
+        "description": "ADVANTECH ETHERNET SWITCH",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "M9F42102": {
+        "manufacturer": "SCHNEIDER",
+        "description": "MINIAT.CIRC.-BREAKER, 1POLE, 2A, CIRCUIT PROTECTION",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "6GK5008-0BA10-1AB2": {
+        "manufacturer": "SIEMENS",
+        "description": "8 PORT INDUSTRIAL ETHERNET SWITCH, 24V AC/DC",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "46.52.9.024.0074": {
+        "manufacturer": "FINDER",
+        "description": "INTERPOSING /  ISOLATION RELAY, 24VDC, DPDT",
+        "quantity": 0,
+        "unit_price": 2.0
+    },
+    "97.02SPA": {
+        "manufacturer": "FINDER",
+        "description": "RELAY SOCKET",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-IB16": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "COMPACTLOGIX 5069-IB16, 16PT DIGITAL INPUT MODULE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-ARM": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "ADDRESS RESERVE MODULE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-OB16": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "16 CHANNEL 24VDC SOURCE OUTPUT MODULE, 100\u00b5S RESPONSE, 2 TIER FAULT MODE, HOLD LAST STATE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-OB8": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "COMPACTLOGIX 5069-OB8, 8PT DIGITAL OUTPUT MADULE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-IF8": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "COMPACTLOGIX 5069-IF8, 8PT ANALOG INPUT MODULE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-OF4": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "4 CHANNEL VOLTAGE/CURRENT ANALOG OUTPUT MODULE, 16 BIT, 1MS CHANNEL UPDATE RATE, FORCING, ANALOG SCALING, HOLD LAST STATE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5069-RTB18-SPRING": {
+        "manufacturer": "ALLEN BRADLEY",
+        "description": "5069 COMPACT I/O 18 PINS SPRING TYPE TERMINAL BLOCK KIT",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "5531M-24AQ": {
+        "manufacturer": "EDWARDS",
+        "description": "ADAPTATONE MILLENNIUM MULTIPLE TONE SIGNAL FOUR OUTPUTS, 55 TONE, 110 DB, 24 VDC, 24 VAC 50/60 HZ",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "0222760001": {
+        "manufacturer": "WEIDMULLER",
+        "description": "FUSED TERMINAL BLOCK, 10-60V AC/DC 5X20mm C/W BLOWN FUSE INDICATION HINGE NEGATIVE",
+        "quantity": 0,
+        "unit_price": 24.0
+    },
+    "GGM1/2": {
+        "manufacturer": "FERRAZ",
+        "description": "1/2 AMP FUSE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "GGM2/10": {
+        "manufacturer": "FERRAZ",
+        "description": "2/10 AMP FUSE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2917-1A": {
+        "manufacturer": "SIEMENS",
+        "description": "3RV2917 3PH BUSBAR INFEED INPUT BASE, 2 SLOT, WITH END COVER",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2917-4B": {
+        "manufacturer": "SIEMENS",
+        "description": "3RV2917 3PH BUSBAR INFEED EXPANSION BASE, 3 SLOT, WITH EXTENSION CONNECTOR",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2917-5AA00": {
+        "manufacturer": "SIEMENS",
+        "description": "3RV2917 3PH BUSBAR INFEED TOP CABLE CONNECTOR, S00, SPRING TERMINALS, SINGLE",
+        "quantity": 0,
+        "unit_price": 0.0
+    },
+    "3RV2917-7AA00": {
+        "manufacturer": "SIEMENS",
+        "description": "3RV2917 3PH BUSBAR INFEED CONTACTOR BASE, FOR CONTACTOR SIZE S00, SCREW/SPRING TERMINALS SINGLE-UNIT PACKING",
+        "quantity": 0,
+        "unit_price": 0.0
+    }
+}
