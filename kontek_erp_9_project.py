@@ -1,5 +1,5 @@
 # Run this script with the command below;
-# python script.py "P:\KONTEK\ENGINEERING\ELECTRICAL\Application Development\ERP\9. Electrical BOM Parsing"
+# python kontek_erp_9_project.py "P:\KONTEK\ENGINEERING\ELECTRICAL\Application Development\ERP\9. Electrical BOM Parsing"
 
 import json
 import os
