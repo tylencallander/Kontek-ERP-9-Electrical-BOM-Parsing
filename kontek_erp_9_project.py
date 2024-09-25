@@ -62,7 +62,7 @@ def load_bom(filepath):
 
     return parts, errors
 
-def save_json(bom_parts, output_filename='parts.json'):
+def save_json(bom_parts, output_filename='bom.json'):
     with open(output_filename, 'w') as f:
         json.dump(bom_parts, f, indent=4)
 
@@ -81,7 +81,7 @@ def main():
                 all_errors[filename] = errors
                 logging.warning(f"Errors encountered in file {filename}: {errors}")
     
-    save_json(all_bom_parts, 'parts.json')
+    save_json(all_bom_parts, 'bom.json')
     save_json(all_errors, 'errors.json')
 
     logging.info("BOM parsing and JSON saving process completed.")
