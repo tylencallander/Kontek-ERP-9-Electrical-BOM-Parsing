@@ -1,6 +1,3 @@
-# Run this script with the command below;
-# python kontek_erp_9_project.py "P:\KONTEK\ENGINEERING\ELECTRICAL\Application Development\ERP\9. Electrical BOM Parsing"
-
 import json
 import os
 import openpyxl
@@ -19,15 +16,16 @@ def load_bom(filepath):
     headers = {}
     header_row = sheet[1]
     for idx, cell in enumerate(header_row, 1):
-        headers[cell.value] = idx
+        if cell.value:  # Ensure that the cell has a value
+            headers[cell.value.strip().upper()] = idx  # Use upper case to ensure case insensitivity
 
     # Define the expected columns, map them to headers if they exist
     try:
         catalog_col = headers['CATALOG']
         manufacturer_col = headers['MANUFACTURE']
         description_col = headers['DESCRIPTION']
-        quantity_col = headers.get('QTY', None)  
-        supplier_col = headers.get('SUPPLIER', None)
+        quantity_col = headers.get('QTY')  
+        supplier_col = headers.get('SUPPLIER')
     except KeyError as e:
         errors.append(f"Missing expected header: {str(e)}")
         return parts, errors
@@ -42,7 +40,7 @@ def load_bom(filepath):
 
         try:
             # Only treat as valid quantity if it's a number; otherwise, log an error
-            raw_quantity = sheet.cell(row=row, column=quantity_col).value
+            raw_quantity = sheet.cell(row=row, column=quantity_col).value if quantity_col else None
             if raw_quantity is not None and re.match(r'^\d+$', str(raw_quantity)):
                 quantity = int(raw_quantity)
             else:
@@ -72,15 +70,15 @@ def main():
     all_errors = {}
 
     for filename in os.listdir(directory):
-        if filename.endswith('.xlsx') or filename.endswith('.xls'):
+        if filename.endswith('.xlsx') or filename.endswith('.xls') and not filename.startswith('~$'):
             filepath = os.path.join(directory, filename)
             logging.info(f"Processing file: {filename}")
             parts, errors = load_bom(filepath)
             all_bom_parts[filename] = parts
             if errors:
                 all_errors[filename] = errors
-                logging.warning(f"Errors encountered in file {filename}: {errors}")
-    
+                logging.error(f"Errors encountered in file {filename}: {errors}")
+
     save_json(all_bom_parts, 'bom.json')
     save_json(all_errors, 'errors.json')
 
