@@ -6,9 +6,17 @@ import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def load_bom(filepath):
-    wb = openpyxl.load_workbook(filepath, data_only=True)
-    sheet = wb.active
+def load_bom(filepath, project_name):
+    try:
+        wb = openpyxl.load_workbook(filepath, data_only=True)
+        # Check if 'Sheet1' exists
+        if 'Sheet1' not in wb.sheetnames:
+            raise ValueError("Sheet1 not found")
+        sheet = wb['Sheet1']
+    except Exception as e:
+        logging.error(f"Failed to load {filepath}: {str(e)}")
+        return {}, [str(e)]
+    
     parts = {}
     errors = []
 
@@ -16,8 +24,8 @@ def load_bom(filepath):
     headers = {}
     header_row = sheet[1]
     for idx, cell in enumerate(header_row, 1):
-        if cell.value:  # Ensure that the cell has a value
-            headers[cell.value.strip().upper()] = idx  # Use upper case to ensure case insensitivity
+        if cell.value:  
+            headers[cell.value.strip().upper()] = idx  
 
     # Define the expected columns, map them to headers if they exist
     try:
@@ -39,7 +47,6 @@ def load_bom(filepath):
         description = sheet.cell(row=row, column=description_col).value or 'No Description'
 
         try:
-            # Only treat as valid quantity if it's a number; otherwise, log an error
             raw_quantity = sheet.cell(row=row, column=quantity_col).value if quantity_col else None
             if raw_quantity is not None and re.match(r'^\d+$', str(raw_quantity)):
                 quantity = int(raw_quantity)
@@ -49,37 +56,50 @@ def load_bom(filepath):
             quantity = 0
             errors.append(f"Invalid quantity for part {part_number} at row {row}: {str(e)}")
 
-        supplier = sheet.cell(row=row, column=supplier_col).value if supplier_col else 'Unknown'
+        # If part_number exists, update its projects information
+        if part_number not in parts:
+            parts[part_number] = {
+                'description': description,
+                'manufacturer': manufacturer,
+                'projects': []
+            }
 
-        parts[part_number] = {
-            'manufacturer': manufacturer,
-            'description': description,
-            'quantity': quantity,
-            'supplier': supplier
-        }
+        parts[part_number]['projects'].append({
+            'project_name': project_name,
+            'quantity': quantity
+        })
 
     return parts, errors
 
-def save_json(bom_parts, output_filename='bom.json'):
+def save_json(data, output_filename):
     with open(output_filename, 'w') as f:
-        json.dump(bom_parts, f, indent=4)
+        json.dump(data, f, indent=4)
 
 def main():
     directory = "P:/KONTEK/ENGINEERING/ELECTRICAL/Application Development/ERP/9. Electrical BOM Parsing"
-    all_bom_parts = {}
+    all_parts = {}
     all_errors = {}
 
     for filename in os.listdir(directory):
         if filename.endswith('.xlsx') or filename.endswith('.xls') and not filename.startswith('~$'):
             filepath = os.path.join(directory, filename)
             logging.info(f"Processing file: {filename}")
-            parts, errors = load_bom(filepath)
-            all_bom_parts[filename] = parts
+            parts, errors = load_bom(filepath, filename)  
+            for part_number, part_data in parts.items():
+                if part_number not in all_parts:
+                    all_parts[part_number] = {
+                        'description': part_data['description'],
+                        'manufacturer': part_data['manufacturer'],
+                        'projects': part_data['projects']
+                    }
+                else:
+                    all_parts[part_number]['projects'].extend(part_data['projects'])
+            
             if errors:
                 all_errors[filename] = errors
                 logging.error(f"Errors encountered in file {filename}: {errors}")
 
-    save_json(all_bom_parts, 'bom.json')
+    save_json(all_parts, 'bom.json')
     save_json(all_errors, 'errors.json')
 
     logging.info("BOM parsing and JSON saving process completed.")
